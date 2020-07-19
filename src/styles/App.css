@@ -9,7 +9,7 @@ div.app {
 
 
 header {
-  flex-basis: 30vh;
+  flex-basis: 50vh;
   background-color: red;
 }
 
@@ -21,7 +21,7 @@ main {
 }
 aside {
 min-width: 200px;
-background-color: #eee;
+background-color: #aaa;
 }
 
 section.page {
