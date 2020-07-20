@@ -26,7 +26,6 @@ background-color: #aaa;
 
 section.page {
   flex-grow: 1;
-  background-color: green;
 }
 
 footer {
