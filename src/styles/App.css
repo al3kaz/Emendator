@@ -34,3 +34,7 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+.offerText {
+  display: block;
+}
