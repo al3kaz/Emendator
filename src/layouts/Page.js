@@ -16,7 +16,6 @@ const Page = () => {
          <Route path="/download" exact component={FileToDownload} />
          <Route path="/contact" exact component={Contact} />
          <Route component={ErrorPage} />
-
       </Switch>
    </>
    );
