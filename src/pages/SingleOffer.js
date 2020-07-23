@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Product from '../components/Product'
 
 const SingleOffer = (props) => {
-   console.log(props);
 
    return (
       <div>
