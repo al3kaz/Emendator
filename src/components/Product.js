@@ -4,7 +4,51 @@ const products = [
    {
       name: "Dochodzenie roszczeń",
       text: `Aktualnie dochodzenie roszczeń finansowych jest tą usługą z naszego pakietu , na którą na rynku usług finansowych jest największe zapotrzebowanie.
-      Największy wysiłek kierujemy na rzetelność w ocenie wstępnie zleconej nam sprawy. W tym oceniamy stopień trudności, przedstawiamy plan naszego postępowania oraz wstępnie prognozujemy możliwy efekt końcowy.`
+      <br/>
+      <br/>
+      Największy wysiłek kierujemy na rzetelność w ocenie wstępnie zleconej nam sprawy. W tym oceniamy stopień trudności, przedstawiamy plan naszego postępowania oraz wstępnie prognozujemy możliwy efekt końcowy.
+      <br/>
+      <br/>
+      Ściąganie długów Poznań
+      Nasze działania są ukierunkowane na bezpośrednie nawiązanie kontaktów z dłużnikami przez specjalistów ds. dochodzenia roszczeń finansowych. W oparciu o współpracujące z nami kancelarie prawne jesteśmy przygotowani do przeprowadzania postępowań sądowych i egzekucyjnych.
+      <br/>
+      <br/>
+      Odzyskiwanie długów od osób prywatnych
+      Usługa dochodzenia roszczeń finansowych na każdym etapie, realizowana w międzynarodowym standardzie NSNE (negocjacja - sąd - negocjacja - egzekucja) obejmuje postępowania polubowne i egzekucyjne. Adresowana jest do tych, którzy mają problemy z nieściągalnymi należnościami. Klient dysponuje możliwością kształtowania oferty dla siebie.
+      <br/>
+      <br/>
+      Zakres usług dochodzenia roszczeń.
+      <br/>
+      <br/>
+      Odzyskanie należności w postępowaniu polubownym.
+      Bieżące monitorowanie zleconej sprawy.
+      Przyjmowanie od dłużnika wpłat na poczet roszczenia Zleceniodawcy, lub powodowanie wpłat dochodzonych należności bezpośrednio na konto Zleceniobiorcy.
+      Zawieranie w imieniu i za zgodą Zleceniodawcy umowy ugody z dłużnikami.
+      Nadzorowanie, w przypadku uzgodnienia z dłużnikiem ratalnej spłaty należności, terminów i kwot ustalonych do spłaty rat
+      Przekazywanie Zleceniodawcy miesięcznych sprawozdań z wykonanych zadań.
+      <br/>
+      <br/>
+      Podstawa działań dochodzenia roszczeń finansowych:
+      <br/>
+      <br/>
+      Umowa na świadczenie usług dochodzenia roszczeń finansowych:
+      jednorazowe wykonanie usługi;
+      pakiet spraw - jednorazowe wykonanie pakietu.
+      stałe świadczenie usług,
+      Zlecenie do każdej sprawy.
+      Pełnomocnictwo zlecającego wykonanie usługi.
+      <br/>
+      <br/>
+      Czas realizacji zlecenia jest nie dłuższy niż trzy miesiące a np. w sytuacji uzasadnionego doprowadzenia do spłaty zadłużenia w ratach realizacja zlecenia zakończy się po całkowitym zakończeniu spłacenia zadłużenia.
+      <br/>
+      <br/>
+      Opłaty za usługi dochodzenia roszczeń finansowych:
+      <br/>
+      <br/>
+      Opłata bezzwrotna na pokrycie kosztów dojazdu i zakwaterowania Zleceniobiorcy oraz kosztów administracyjno - biurowych związanych z przyjętym zleceniem (opłaty skarbowe, sądowe, pocztowe, itp.).
+      Prowizja od faktycznie odzyskanych kwot i od kwot kompensaty z dochodzenia roszczeń przedmiotów, towarów, cesji należności itp.
+      <br/><br/>
+      Opłaty: negocjowane dla każdego zlecenia.`
 
    },
    {
@@ -88,7 +132,7 @@ const Product = (props) => {
             {props.id}
          </h1>
          <p className="offerText">
-            {productText}
+            <div dangerouslySetInnerHTML={{ __html: productText }} />
          </p>
       </div>
    );
