@@ -1,8 +1,12 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm.js'
 
 const Contact = () => {
    return (
-      <p>Kancelaria Emendator Sp. z o.o.</p>
+      <>
+         <p>Napisz do nas!</p>
+         <ContactForm />
+      </>
    );
 }
 
