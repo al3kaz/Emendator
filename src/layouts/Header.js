@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
-import '../styles/Header.css';
 
 import book1 from '../images/book1.jpg';
 import book2 from '../images/book2.jpg';

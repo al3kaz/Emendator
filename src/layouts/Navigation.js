@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import '../styles/Navigation.css'
 
 const navList = [
    { name: "start", exact: true, path: "/" },
