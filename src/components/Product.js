@@ -137,9 +137,21 @@ const products = [
 ]
 
 const Product = (props) => {
+
+   const list = products.filter(product => {
+      return product.name === props.id
+   })
+
+   const productText = list.map(text => text.text)
+
    return (
       <div>
-         {props.id}
+         <h1>
+            {props.id}
+         </h1>
+         <p className="offerText">
+            <div dangerouslySetInnerHTML={{ __html: productText }} />
+         </p>
       </div>
    );
 }

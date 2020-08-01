@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom'
-import '../styles/Header.css';
 
 import hammer from '../images/hammer_640.jpg';
 import justice from '../images/justice_640.jpg';
