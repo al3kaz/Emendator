@@ -36,7 +36,7 @@ const OfferList = () => {
    ))
 
    return (
-      <nav className="offer">
+      <nav className="page__offer">
          <ul>
             {list}
          </ul>

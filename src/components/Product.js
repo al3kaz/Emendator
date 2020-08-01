@@ -54,50 +54,68 @@ const products = [
    {
       name: "Informacja gospodarcza",
       text: `Kancelaria działalność informacji gospodarczej realizuje na terenie całego kraju. Zapewniamy wysoką skuteczność i profesjonalizm oraz pełną dyskrecję.
-
+      <br/>
+      <br/>
       Szczególnie cieszymy się z coraz większego zapotrzebowania na nasze usługi oraz z uznania dla profesjonalizmu naszych pracowników.
-      
+      <br/>
+      <br/>
       Zachęca to nas do dalszego doskonalenia tej oferty, tak aby spełniała oczekiwania Państwa.
-      
+      <br/>
+      <br/>
       Odnotowując bardzo dobre wyniki informacji gospodarczej oraz dochodzenia roszczeń, proponujemy naszym Klientom kompleksowe usługi z dziedziny badań rynku i konkurencji.
-      
-      Informacja gospodarcza
-      
+      <br/>
+      <br/>
+      Informacja gospodarcza:
+      <br/>
+      <br/>
       Portfel usług przeznaczony dla chcących skutecznie prowadzić wymianę handlową, gdy "kontrakt za wszelka cenę" nie jest jedynym rozwiązaniem ale jednocześnie chcą mieć gwarancje bezpieczeństwa obrotu gospodarczego, znać ryzyko związane z konkretnymi operacjami i orientować się w możliwościach finansowych partnerów handlowych. Informacja gospodarcza to pełny finansowo - prawny obraz wskazanego kontrahenta.
-      
+      <br/>
+      <br/>
       wstępna eliminacja nierzetelnego kontrahenta
       potwierdzenie wiarygodności i zaufania partnerów
       minimalizacja ryzyka handlowego
       ustalenie i wskazanie rzeczywistego majątku dłużnika
-      
+      <br/>
+      <br/>
       OFERUJEMY :
-      
+      <br/>
+      <br/>
       Podstawowe sprawdzenia dokumentacyjne firm.
-      
+      <br/>
+      <br/>
       Są to czynności niezbędne do uzyskania informacji, umożliwiających rozpoznanie badanej firmy (dłużnika, kredytobiorcy) w zakresie formalno - prawnym jej działania, jak również przeszłości, przedmiotu działalności, kapitału założycielskiego, właścicieli (udziałowców), składu zarządu, posiadanych nieruchomości oraz dyscypliny płatniczej.
-      
+      <br/>
+      <br/>
       Przedstawiamy dane aktualne i wiarygodne, ponieważ konfrontujemy informacje dokumentacyjne z rzeczywistym stanem rzeczy. Załączamy dokumentację fotograficzną. Uzyskane w tym zakresie działań dane pozwalają na zdefiniowanie ogólnej oceny wiarygodności przedmiotowej firmy. Informacja o firmie sporządzana jest według ustalonego zakresu zleceniodawcy.
-      
+      <br/>
+      <br/>
       Określenie wiarygodności handlowej (finansowej) firm.
-      
+      <br/>
+      <br/>
       Informacje przedstawiające pogłębione ustalenia dotyczące wiarygodności handlowej (finansowej) firm - uzyskiwane z wykorzystaniem źródeł ogólnie dostępnych oraz przy pomocy firm detektywistycznych - umożliwiają nie tylko eliminowanie ryzyka, ale także opracowanie skutecznej taktyki rozmów z przyszłym partnerem handlowym, zapewniającej w wysokim stopniu osiągnięcie zamierzonego celu i uniknięcie potencjalnych zagrożeń.
-      
+      <br/>
+      <br/>
       Ustalenia majątkowe oraz dowodowe dla sądu i komornika.
-      
+      <br/>
+      <br/>
       Wykonywane ustalenia majątkowe, połączone z podstawowym rozpoznaniem firmy, dotyczą nie tylko stwierdzenia składników majątku, ale także, w razie potrzeby, majątku osobistego właścicieli, jak również uzyskania innych danych niezbędnych w procesie egzekwowania długów.
-      
+      <br/>
+      <br/>
       Działania w tym zakresie prowadzone są z wykorzystaniem źródeł ogólna dostępnych oraz przy pomocy usług firm detektywistycznych współpracujących z Kancelarią.
-      
+      <br/>
+      <br/>
       Ustalenia dotyczące osób.
-      
+      <br/>
+      <br/>
       Realizowane stosownie do zapotrzebowania Zleceniodawcy.
-      
+      <br/>
+      <br/>
       Niniejsza oferta ma charakter ogólny . Na życzenie Państwa gotowi jesteśmy udzielić wszelkich dodatkowych informacji i wyjaśnień lub przedstawić szczegółową ofertę uwzględniającą konkretne zapotrzebowanie Państwa firmy.
-      
-      
+      <br/>
+      <br/>
       Opłaty uzależnione są od zakresu zlecenia co do miejsca, czasu i rodzaju zapotrzebowanej informacji.
-      
-      
+      <br/>
+      <br/>
       Opłaty: negocjowane dla każdego zlecenia.`
    },
    {

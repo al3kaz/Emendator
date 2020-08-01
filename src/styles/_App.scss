@@ -1,40 +1,15 @@
-div.app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
- width: 90%; 
- background-color: #ddd;
- margin: 0 auto;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 10px;
 }
 
-
-header {
-  flex-basis: 50vh;
-  background-color: red;
-}
-
-main {
-  display: flex;
-  flex-grow: 1;
-  padding: 30px 0;
-  background-color:#ccc;
-}
-aside {
-min-width: 200px;
-background-color: #aaa;
-}
-
-section.page {
-  flex-grow: 1;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-
-.offerText {
-  display: block;
+.app {
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   width: 90%;
+   margin: 0 auto;
 }
