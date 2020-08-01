@@ -10,18 +10,18 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <header>
+        <header className="app__header">
           {<Header />}
         </header>
-        <main>
-          <aside>
+        <main className="app__main">
+          <aside className="main__nav">
             {<Navigation />}
           </aside>
-          <section className='page'>
+          <section className='main__page'>
             {<Page />}
           </section>
         </main>
-        <footer>
+        <footer className="app_footer">
           {<Footer />}
         </footer>
       </div>
