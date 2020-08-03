@@ -30,14 +30,14 @@ const products = [
 const OfferList = () => {
 
    const list = products.map(product => (
-      <li key={product.name}>
+      <li className="main__page__li" key={product.name}>
          <Link to={`/offer/${product.name}`}>{product.name}</Link>
       </li>
    ))
 
    return (
-      <nav className="page__offer">
-         <ul>
+      <nav className="main__page__nav">
+         <ul className="main__page__ul">
             {list}
          </ul>
       </nav>

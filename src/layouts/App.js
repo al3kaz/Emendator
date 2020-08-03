@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <header className="app__header">
+        <header className="header">
           {<Header />}
         </header>
-        <main className="app__main">
+        <main className="main">
           <aside className="main__nav">
             {<Navigation />}
           </aside>
@@ -20,7 +20,7 @@ function App() {
             {<Page />}
           </section>
         </main>
-        <footer className="app_footer">
+        <footer className="footer">
           {<Footer />}
         </footer>
       </div>

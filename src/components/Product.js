@@ -146,11 +146,11 @@ const Product = (props) => {
 
    return (
       <div>
-         <h1>
+         <h1 className="main__page__title">
             {props.id}
          </h1>
-         <p className="offerText">
-            <div dangerouslySetInnerHTML={{ __html: productText }} />
+         <p>
+            <div className="main__page__text" dangerouslySetInnerHTML={{ __html: productText }} />
          </p>
       </div>
    );

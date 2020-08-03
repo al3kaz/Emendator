@@ -1,7 +1,48 @@
-.page__home p {
-   font-size: 1.2rem;
-}
+.main {
+   flex-basis: 60vh;
+   &__page {
+      &__button {
+         padding: 5px;
+         position: relative;
+         left: 90px;
+         margin: 20px 0;
+      }
 
-.page__offer ul li a{
-   font-size: 1.2rem;
+      &__home {
+         font-size: 1.2rem;
+         text-align: center;
+      }
+
+      &__title {
+         font-size: 1.4rem;
+         text-align: center;
+         text-transform: uppercase;
+         margin: 5px;
+      }
+
+      &__text {
+         font-size: 1.2rem;
+      }
+
+      &__li a, &__downloads a {
+         display: block;
+         text-align: center;
+         font-size: 1.2rem;
+         text-decoration: none;
+         list-style-type: none;
+         text-transform: uppercase;
+         color: black;
+         margin: 8px;
+         font-weight: bold;
+      }
+
+      &__contact {
+         display: block;
+         text-align: center;
+
+         & div {
+            margin: 10px;
+         }
+      }
+}
 }

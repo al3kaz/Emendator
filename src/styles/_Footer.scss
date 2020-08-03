@@ -1,0 +1,11 @@
+.footer {
+   flex-basis: 10vh;
+   background-color: black;
+
+   &__txt {
+      display: block;
+      color: white;
+      font-size: 1.2rem;
+      text-align: center;
+      margin: 10px auto;   }
+}

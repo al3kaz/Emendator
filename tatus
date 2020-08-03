@@ -1,0 +1,84 @@
+[33mcommit 8213dd3ec62e6accac2a7228871045319924ee5a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 1d223c2 e252ff5
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sat Aug 1 10:26:50 2020 +0200
+
+    working mobile
+
+[33mcommit e252ff594c5f44b74c176e13b41286642e3bd5c9[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sat Aug 1 10:18:52 2020 +0200
+
+    mobile
+
+[33mcommit 1d223c29c4355b890c37874aa9873b947051af16[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sat Aug 1 10:01:44 2020 +0200
+
+    1st state
+
+[33mcommit df603a5cd18cc5861c89128b035f36c404a53b4c[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Wed Jul 29 06:47:10 2020 +0200
+
+    sass
+
+[33mcommit 380051e1812131a462c0d5c431dc9bcfc1f6edad[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Mon Jul 27 21:56:44 2020 +0200
+
+    dowloand section, form in contact
+
+[33mcommit ed18bb3e9fa16b4031587ec596d4bc0062b78b09[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sun Jul 26 13:39:25 2020 +0200
+
+    dangerouslySetInnerHTML
+
+[33mcommit 40fbe35b335774750b850d76e8d40eb5fad17f8e[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Jul 23 22:45:20 2020 +0200
+
+    add text in offer/product
+
+[33mcommit 39ed6c0f7d09a40bb8800fbd41e4b3d55e8e7963[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Jul 23 21:44:05 2020 +0200
+
+    Navigation proper work
+
+[33mcommit 0e251db6df04de2caef13491be164106a5354dd7[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Jul 23 21:28:07 2020 +0200
+
+    backup
+
+[33mcommit 75fcee83c40ce64cd022194671a1b60fcf08f345[m[33m ([m[1;31morigin/testing[m[33m)[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Jul 23 06:25:24 2020 +0200
+
+    test
+
+[33mcommit 07c0f4d3273e169232a18dbabd95663255e1b874[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Mon Jul 20 21:43:13 2020 +0200
+
+    OfferList
+
+[33mcommit 53a23affde04486bf2332325c62d36f4b4608570[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Sun Jul 19 15:19:44 2020 +0200
+
+    header
+
+[33mcommit bb1f4d3dd88b564160afe26adae197f5e4765651[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Jul 16 21:35:56 2020 +0200
+
+    add emendator
+
+[33mcommit 07648fa8417e78304d95d1a5bd7a29a710e6c679[m
+Author: Aleksander Kazmierczak <aleksander.kazmierczak@gmail.com>
+Date:   Thu Jul 16 21:21:47 2020 +0200
+
+    initial commit

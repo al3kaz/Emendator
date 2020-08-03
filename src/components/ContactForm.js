@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Prompt } from "react-router-dom";
 
+
+
 class ContactForm extends Component {
    state = {
       firstNameValue: "",
@@ -52,7 +54,41 @@ class ContactForm extends Component {
       })
    }
 
+   handleBtn = () => {
+      const data = {
+         service_id: 'aleksander',
+         template_id: 'emendator',
+         user_id: 'user_O7dE1tncyoFDbFY6ecSJU',
+         template_params: {
+            first_name: this.state.firstNameValue,
+            sure_name: this.state.sureNameValue,
+            email: this.state.emailValue,
+            problem: this.state.problemValue,
+         }
+      };
+
+      fetch('https://api.emailjs.com/api/v1.0/email/send', {
+         method: 'POST',
+         body: JSON.stringify(data),
+         headers: {
+            'Content-Type': 'application/json',
+         },
+      })
+         .then((httpResponse) => {
+            if (httpResponse.ok) {
+               console.log('Your mail is sent!');
+            } else {
+               return httpResponse.text()
+                  .then(text => Promise.reject(text));
+            }
+         })
+         .catch((error) => {
+            console.log('Oops... ' + error);
+         });
+   }
+
    render() {
+
 
       return (
          <>
@@ -69,7 +105,7 @@ class ContactForm extends Component {
                <div>
                   <textarea onChange={this.problemHandle} value={this.state.problemValue} placeholder="opisz swój problem *" id="problem" cols="30" rows="10"></textarea>
                </div>
-               <button>Wyslij</button>
+               <button onClick={this.handleBtn}>Wyslij</button>
             </ form>
             <Prompt
                when={this.state.isEmpty}
