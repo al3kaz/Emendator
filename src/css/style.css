@@ -70,6 +70,10 @@ header img {
       flex-basis: 60vh;
 }
 
+.main__page p {
+  font-size: 12px;
+}
+
 .main__page__button {
   padding: 5px;
   position: relative;
@@ -95,8 +99,11 @@ header img {
 
 .main__page__li a, .main__page__downloads a {
   display: block;
+  width: 80%;
   text-align: center;
   font-size: 1.2rem;
+  line-height: 20px;
+  border-bottom: 1px solid black;
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
@@ -108,16 +115,32 @@ header img {
 .main__page__contact {
   display: block;
   text-align: center;
+  background-color: lightgray;
 }
 
 .main__page__contact div {
   margin: 10px;
 }
 
+.backBtn {
+  display: inline-block;
+  border: solid 1px black;
+  padding: 5px 10px;
+  color: black;
+  margin: 10px;
+  background-color: #bbb;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.offerWrapper {
+  text-align: center;
+}
+
 .footer {
-  -ms-flex-preferred-size: 10vh;
-      flex-basis: 10vh;
   background-color: black;
+  -ms-flex-preferred-size: 5vh;
+      flex-basis: 5vh;
 }
 
 .footer__txt {
@@ -125,6 +148,12 @@ header img {
   color: white;
   font-size: 1.2rem;
   text-align: center;
-  margin: 10px auto;
+  margin: 5px auto;
+}
+
+.footer__facebook, .footer__map {
+  font-size: 25px;
+  color: white;
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -6,10 +6,10 @@ import Product from '../components/Product'
 const SingleOffer = (props) => {
 
    return (
-      <>
+      <div className="offerWrapper">
          <Product id={props.match.params.id} />
-         <Link to='/offer'>Powrót do ofery</Link>
-      </>
+         <Link className="backBtn" to='/offer'>Powrót do ofery</Link>
+      </div>
    );
 }
 

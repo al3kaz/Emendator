@@ -100,10 +100,10 @@ class ContactForm extends Component {
                   <input onChange={this.sureNameHandle} value={this.state.sureNameValue} placeholder="nazwisko" type="text" id="sureName" />
                </div>
                <div>
-                  <input onChange={this.emailHandle} value={this.state.emailValue} placeholder="email *" type="email" />
+                  <input onChange={this.emailHandle} value={this.state.emailValue} placeholder="email *" type="email" required />
                </div>
                <div>
-                  <textarea onChange={this.problemHandle} value={this.state.problemValue} placeholder="opisz swój problem *" id="problem" cols="30" rows="10"></textarea>
+                  <textarea onChange={this.problemHandle} value={this.state.problemValue} required placeholder="opisz swój problem *" id="problem" cols="30" rows="10"></textarea>
                </div>
                <button onClick={this.handleBtn}>Wyslij</button>
             </ form>

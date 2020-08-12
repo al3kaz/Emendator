@@ -1,6 +1,9 @@
 .main {
    flex-basis: 60vh;
    &__page {
+      & p {
+         font-size: 12px;
+      }
       &__button {
          padding: 5px;
          position: relative;
@@ -26,8 +29,11 @@
 
       &__li a, &__downloads a {
          display: block;
+         width: 80%;
          text-align: center;
          font-size: 1.2rem;
+         line-height: 20px;
+         border-bottom: 1px solid black;
          text-decoration: none;
          list-style-type: none;
          text-transform: uppercase;
@@ -39,10 +45,27 @@
       &__contact {
          display: block;
          text-align: center;
+         background-color: lightgray;
 
          & div {
             margin: 10px;
          }
       }
 }
+}
+
+.backBtn {
+   display: inline-block;
+   border: solid 1px black;
+   padding: 5px 10px;
+   color: black;
+   margin: 10px;
+   background-color: #bbb;
+   text-transform: uppercase;
+   text-decoration: none;
+
+}
+
+.offerWrapper {
+   text-align: center;
 }
