@@ -1,8 +1,10 @@
 .main {
    flex-basis: 60vh;
    &__page {
-      & p {
-         font-size: 12px;
+
+      &__text {
+         font-size: 1.2rem;
+         margin-bottom: 10px;
       }
       &__button {
          padding: 5px;
@@ -27,20 +29,39 @@
          font-size: 1.2rem;
       }
 
-      &__li a, &__downloads a {
-         display: block;
-         width: 80%;
+      &__downloads {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+
+      &__offer li ,&__downloads a {
+         margin: 10px;
+         padding: 5px;
+         border-radius: 8px;
+         box-shadow: 20px 20px 20px black;
          text-align: center;
-         font-size: 1.2rem;
-         line-height: 20px;
-         border-bottom: 1px solid black;
+         font-weight: bold;
+         background-color: lightgrey;
+         font-size: 1.5rem;
          text-decoration: none;
          list-style-type: none;
          text-transform: uppercase;
          color: black;
-         margin: 8px;
-         font-weight: bold;
       }
+
+      &__offer li  {
+         margin: 15px;
+         a {
+            display: block;
+            font-size: 1.5rem;
+            text-decoration: none;
+            list-style-type: none;
+            color: black;
+            }
+      }
+      
+
 
       &__contact {
          display: block;
@@ -52,20 +73,4 @@
          }
       }
 }
-}
-
-.backBtn {
-   display: inline-block;
-   border: solid 1px black;
-   padding: 5px 10px;
-   color: black;
-   margin: 10px;
-   background-color: #bbb;
-   text-transform: uppercase;
-   text-decoration: none;
-
-}
-
-.offerWrapper {
-   text-align: center;
 }

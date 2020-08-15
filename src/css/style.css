@@ -70,8 +70,9 @@ header img {
       flex-basis: 60vh;
 }
 
-.main__page p {
-  font-size: 12px;
+.main__page__text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .main__page__button {
@@ -97,19 +98,45 @@ header img {
   font-size: 1.2rem;
 }
 
-.main__page__li a, .main__page__downloads a {
-  display: block;
-  width: 80%;
+.main__page__downloads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__page__offer li, .main__page__downloads a {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  -webkit-box-shadow: 20px 20px 20px black;
+          box-shadow: 20px 20px 20px black;
   text-align: center;
-  font-size: 1.2rem;
-  line-height: 20px;
-  border-bottom: 1px solid black;
+  font-weight: bold;
+  background-color: lightgrey;
+  font-size: 1.5rem;
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
   color: black;
-  margin: 8px;
-  font-weight: bold;
+}
+
+.main__page__offer li {
+  margin: 15px;
+}
+
+.main__page__offer li a {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
 }
 
 .main__page__contact {
