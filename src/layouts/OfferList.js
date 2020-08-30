@@ -14,7 +14,7 @@ const offerList = () => {
 
    const offerList = navList.map(item => (
       <li key={item.name}>
-         <NavLink to={item.path}>
+         <NavLink to={item.path} >
             {item.name}
          </NavLink>
       </li>

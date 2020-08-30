@@ -19,14 +19,24 @@
       }
 
       &__title {
-         font-size: 1.4rem;
+         font-size: 1.5rem;
          text-align: center;
          text-transform: uppercase;
          margin: 5px;
       }
 
-      &__text {
+      &__h2, &__h3 {
+         font-size: 1.4rem;
+         text-transform: uppercase;
+         font-weight: bold;
+         margin: 3px;
+      }
+
+      & li, & div p, & ul, & strong  {
          font-size: 1.2rem;
+         margin-bottom: 2px;
+         margin-top: 2px;
+         line-height: 1.5;
       }
 
       &__downloads {
@@ -36,6 +46,7 @@
       }
 
       &__offer li ,&__downloads a {
+         display: block;
          margin: 10px;
          padding: 5px;
          border-radius: 8px;
@@ -53,6 +64,7 @@
       &__offer li  {
          margin: 15px;
          a {
+            padding: 10x;
             display: block;
             font-size: 1.5rem;
             text-decoration: none;

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const DochodzenieRoszczeń = () => {
+
    return (
       <div>
          <h1 className="main__page__title">Dochodzenie roszczeń</h1>
@@ -47,7 +48,7 @@ const DochodzenieRoszczeń = () => {
          <p className="main__page__text">
             <strong>Opłaty:</strong> negocjowane dla każdego zlecenia.
          </p>
-
+         <button className=".main__page__button">cofnij</button>
       </div >
    );
 }
