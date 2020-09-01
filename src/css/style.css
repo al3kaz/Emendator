@@ -6,6 +6,18 @@
   font-size: 10px;
 }
 
+@media (min-width: 767px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1023px) {
+  * {
+    font-size: 16px;
+  }
+}
+
 .app {
   font-family: Arial, Helvetica, sans-serif;
   display: -webkit-box;
@@ -17,6 +29,7 @@
           flex-direction: column;
   min-height: 100vh;
   width: 90%;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -43,6 +56,9 @@ header img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 8px;
   margin-bottom: 5px;
 }
@@ -82,6 +98,28 @@ header img {
   margin: 20px 0;
 }
 
+.main__page .btn-dark {
+  margin: 10px 10px 10px 60%;
+  text-transform: uppercase;
+}
+
+.main__page__backBtn {
+  position: relative;
+  left: 70%;
+  display: block;
+  width: 20%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: black 1px solid;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  color: white;
+  background-color: #343a40;
+}
+
 .main__page__home {
   font-size: 1.2rem;
   text-align: center;
@@ -108,20 +146,7 @@ header img {
   line-height: 1.5;
 }
 
-.main__page__downloads {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.main__page__offer li, .main__page__downloads a {
+.main__page__offer li, .main__page__downloads li {
   display: block;
   margin: 10px;
   padding: 5px;
@@ -129,26 +154,23 @@ header img {
   -webkit-box-shadow: 20px 20px 20px black;
           box-shadow: 20px 20px 20px black;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   background-color: lightgrey;
-  font-size: 1.5rem;
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
+  color: red;
+}
+
+@media (min-width: 1023px) {
+  .main__page__offer li, .main__page__downloads li {
+    margin: 30px;
+  }
+}
+
+.main__page__offer li a, .main__page__downloads li a {
   color: black;
-}
-
-.main__page__offer li {
-  margin: 15px;
-}
-
-.main__page__offer li a {
-  padding: 10x;
-  display: block;
   font-size: 1.5rem;
-  text-decoration: none;
-  list-style-type: none;
-  color: black;
 }
 
 .main__page__contact {
@@ -175,9 +197,16 @@ header img {
   margin: 5px auto;
 }
 
-.footer__facebook, .footer__map {
+.footer__facebook, .footer__map, .footer__phone {
   font-size: 25px;
   color: white;
   margin: 10px;
+}
+
+@media (min-width: 1023px) {
+  .footer__facebook, .footer__map, .footer__phone {
+    font-size: 50px;
+    margin: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

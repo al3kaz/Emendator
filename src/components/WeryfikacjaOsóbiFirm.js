@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const WeryfikacjaOsóbiFirm = () => {
    return (
-      <div>
+      <div className="main__page__wrapper">
          <h1 className="main__page__title">Weryfikacja osób i firm</h1>
          <p>Aktualnie na rynku usług finansowych a także w relacji sprzedający kupujący przy dobrze rozumianej konkurencyjności rynku a tym samym pozyskiwaniu klientów zachodzi potrzeba pilnej i rzetelnej informacji o kredytobiorcy, lub innym kontrahencie.
 <br />
@@ -31,6 +32,7 @@ Powyższe realizujemy poprzez:</p>
 </li>
          <p><strong>Czas realizacji: </strong>do 30 roboczodni.</p>
          <p><strong>Opłaty: </strong>negocjowane dla każdego zlecenia.</p>
+         <Link className="main__page__backBtn" to="./">cofnij</Link>
       </div>
    );
 }

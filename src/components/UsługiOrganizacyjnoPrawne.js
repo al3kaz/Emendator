@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const UsługiOrganizacyjnoPrawne = () => {
    return (
-      <div>
+      <div className="main__page__wrapper">
          <h1 className="main__page__title">Usługi organizacyjno-prawne</h1>
          <p>Oferujemy Państwu usługi w zakresie:</p>
          <li>Doradztwa przy podejmowaniu decyzji o rozpoczęciu działalności gospodarczej,
@@ -27,6 +28,7 @@ const UsługiOrganizacyjnoPrawne = () => {
 </li>
          <li>Konsulting - pomoc zadłużonym
 </li>
+         <Link className="main__page__backBtn" to="./">cofnij</Link>
       </div>
    );
 }

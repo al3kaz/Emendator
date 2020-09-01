@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const OfertaWspółpracy = () => {
    return (
-      <div>
+      <div className="main__page__wrapper">
          <h1 className="main__page__title">Oferta współpracy </h1>
          <p>Kancelaria Emendator Sp. z o.o. ma zaszczyt przedstawić, przygotowaną z myślą o przedsiębiorcach, ofertę usług mających na celu wyeliminowanie strat wynikających z przeterminowanych lub/i nieuregulowanych zobowiązań nierzetelnych partnerów handlowych.
 <br />
@@ -30,6 +31,7 @@ Zdając sobie sprawę z różnorodności sytuacji z jakimi stykacie się Państw
          <p>Polityka cenowa prowadzona przez naszą firmę zakłada generowanie zysku na podstawie wyników pracy, czyli na podstawie prowizji naliczanej od realnie odzyskanych kwot lub wartości odzyskiwanego majątku. Zakłada również ograniczenie wstępnych kosztów, które poniosą Państwo na wstępie realizacji zlecenia tak, by były na jak najniższym poziomie, gwarantując jednak pokrycie kosztów związanych z realizacją wszystkich niezbędnych procedur.
 <br />
 Dodatkowo firma nasza otwarta jest na negocjacje dotyczące wielkości prowizji oraz kwot bezzwrotnych z tytułu kosztów związanych z realizacją zleceń.</p>
+         <Link className="main__page__backBtn" to="./">cofnij</Link>
       </div>
    );
 }

@@ -20,8 +20,9 @@ class HomePage extends Component {
             Kancelaria Emendator Sp. z o.o. to jedna z wiodących w Polsce firm doradztwa i pośrednictwa ekonomiczno-prawnego. Świadczy usługi na rzecz uczestników życia gospodarczego, koncentrując się na dochodzeniu roszczeń finansowych i obsłudze finansowo-prawnej podmiotów gospodarczych.
             <br />
             <br />
-            {this.state.isActive ? null : <button className="main__page__button" onClick={this.handleClick}>Czytaj więcej</button>}
-            {this.state.isActive ? <p className="main__page__home">Podstawą naszych działań jest dbałość o Państwa interesy. Zobowiązuje nas to, do rzetelnego przestrzegania zasad prawa oraz etyki handlowej. Dochodzenie roszczeń finansowych to skomplikowany proces, w którym praktycznie każde zlecenie stanowi indywidualny przypadek, dlatego też w naszych działaniach bierzemy pod uwagę przyczyny, które spowodowały nie wywiązanie się Państwa partnera z zaciągniętych zobowiązań i na bazie opinii naszych ekspertów określamy możliwości realizacji Państwa zlecenia oraz wszelkie konsekwencje ekonomiczno-prawne, jakie poniesie dłużnik w sytuacji odmowy spłaty wierzytelności. Dzięki temu, już we wstępnej fazie negocjacji, możemy nakłonić go do spłaty zadłużenia. Pozwala to na relatywnie szybkie rozwiązanie problemu, oraz duże oszczędności finansowe związane z możliwością wyeliminowania kosztów sądowych i egzekucyjnych a to, że Państwa firmę przedstawiamy zawsze w najlepszym świetle, jako kontrahenta, który w sposób kulturalny ale stanowczy dba o swoje interesy, w dłuższym okresie pozwala na zdobycie szacunku dla Państwa firmy na rynku oraz zminimalizowania liczby należności przeterminowanych.
+            {this.state.isActive ? null : <button type="button" class="btn btn-dark" onClick={this.handleClick}> Czytaj więcej</button>}
+
+            {this.state.isActive ? <div className="main__page__home"> Podstawą naszych działań jest dbałość o Państwa interesy. Zobowiązuje nas to, do rzetelnego przestrzegania zasad prawa oraz etyki handlowej. Dochodzenie roszczeń finansowych to skomplikowany proces, w którym praktycznie każde zlecenie stanowi indywidualny przypadek, dlatego też w naszych działaniach bierzemy pod uwagę przyczyny, które spowodowały nie wywiązanie się Państwa partnera z zaciągniętych zobowiązań i na bazie opinii naszych ekspertów określamy możliwości realizacji Państwa zlecenia oraz wszelkie konsekwencje ekonomiczno-prawne, jakie poniesie dłużnik w sytuacji odmowy spłaty wierzytelności. Dzięki temu, już we wstępnej fazie negocjacji, możemy nakłonić go do spłaty zadłużenia. Pozwala to na relatywnie szybkie rozwiązanie problemu, oraz duże oszczędności finansowe związane z możliwością wyeliminowania kosztów sądowych i egzekucyjnych a to, że Państwa firmę przedstawiamy zawsze w najlepszym świetle, jako kontrahenta, który w sposób kulturalny ale stanowczy dba o swoje interesy, w dłuższym okresie pozwala na zdobycie szacunku dla Państwa firmy na rynku oraz zminimalizowania liczby należności przeterminowanych.
             <br />
                <br />
             Innym sposobem na uchronienie Państwa przed skutkami problemów nierzetelnych kontrahentów jest podejmowanie działań mających na celu zbadanie konkretnego przedsięwzięcia pod względem jego bezpieczeństwa. Szczególnie w warunkach polskich, informacje dotyczące stanu majątkowego partnera, jego przeszłości gospodarczej, powiązań oraz jego pozycji na rynku, powinny stanowić ważny element w podejmowaniu decyzji o rozpoczęciu współpracy. Zdobycie takich informacji powinno jednak odbywać się w taki sposób, aby badana firma nie zorientowała się, że jest sprawdzana, dlatego jedynym sposobem na uzyskanie interesujących nas informacji jest powierzenie tego zadania specjalistom.
@@ -42,9 +43,10 @@ class HomePage extends Component {
             <br />
                <br />
             Dodatkowo firma nasza otwarta jest na negocjacje dotyczące wielkości prowizji oraz kwot bezzwrotnych z tytułu kosztów związanych z realizacją zleceń.
-            </p> : null}
+            </div> : null}
 
-            {this.state.isActive ? <button className="main__page__button" onClick={this.handleClick}>^</button> : null}
+            {this.state.isActive ? <button type="button" class="btn btn-dark" onClick={this.handleClick}>^</button> : null}
+
          </div>);
    }
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const InformacjaGospodarcza = () => {
    return (
-      <div>
+      <div className="main__page__wrapper">
          <h1 className="main__page__title">
             Informacja gospodarcza
          </h1>
@@ -42,6 +43,7 @@ Niniejsza oferta ma charakter ogólny . Na życzenie Państwa gotowi jesteśmy u
 
 </p>
          <p><strong>Opłaty:</strong> negocjowane dla każdego zlecenia.</p>
+         <Link className="main__page__backBtn" to="./">cofnij</Link>
       </div>
    );
 }

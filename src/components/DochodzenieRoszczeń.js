@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const DochodzenieRoszczeń = () => {
 
    return (
-      <div>
+      <div className="main__page__wrapper">
          <h1 className="main__page__title">Dochodzenie roszczeń</h1>
          <p className="main__page__text">
             Aktualnie dochodzenie roszczeń finansowych jest tą usługą z naszego pakietu , na którą na rynku usług finansowych jest największe zapotrzebowanie.
@@ -48,7 +49,7 @@ const DochodzenieRoszczeń = () => {
          <p className="main__page__text">
             <strong>Opłaty:</strong> negocjowane dla każdego zlecenia.
          </p>
-         <button className=".main__page__button">cofnij</button>
+         <Link className="main__page__backBtn" to="./">cofnij</Link>
       </div >
    );
 }
