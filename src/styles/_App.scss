@@ -6,15 +6,13 @@
    @media (min-width: 767px) {
       font-size: 14px;
       }
-
-   @media (min-width: 1023px) {
-         font-size: 16px;
-         }     
+   @media (min-height: 1365px) {
+      font-size: 20px;
+   }
 
 }
 
 .app {
-   font-family: Arial, Helvetica, sans-serif;
    display: flex;
    flex-direction: column;
    min-height: 100vh;

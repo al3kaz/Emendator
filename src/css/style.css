@@ -12,14 +12,13 @@
   }
 }
 
-@media (min-width: 1023px) {
+@media (min-height: 1365px) {
   * {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
 .app {
-  font-family: Arial, Helvetica, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,7 +32,7 @@
   margin: 0 auto;
 }
 
-header {
+.header {
   -ms-flex-preferred-size: 30vh;
       flex-basis: 30vh;
   position: relative;
@@ -42,28 +41,40 @@ header {
   margin-top: 5px;
 }
 
-header img {
+.header__img {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  background-size: contain;
 }
 
-.main__nav ul {
+.header__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.nav__ul {
+  max-width: 800px;
+  margin: 10px auto;
   background-color: #aaa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   border-radius: 8px;
-  margin-bottom: 5px;
 }
 
-.main__nav ul li {
+.nav__ul__li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: arial;
   font-weight: bold;
   list-style-type: none;
@@ -71,13 +82,19 @@ header img {
   text-transform: uppercase;
 }
 
-.main__nav ul a {
+.nav__ul a {
   font-size: 1.2rem;
   color: black;
   text-decoration: none;
 }
 
-.main__nav ul a.active {
+@media (max-width: 340px) {
+  .nav__ul a {
+    font-size: 1.1rem;
+  }
+}
+
+.nav__ul a.active {
   border-bottom: 1px solid  black;
 }
 
@@ -86,9 +103,15 @@ header img {
       flex-basis: 60vh;
 }
 
-.main__page__text {
+.main__page h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.main__page__text, .main__page__li {
   font-size: 1.2rem;
-  margin-bottom: 10px;
+  margin: 10px 0px;
+  line-height: 2;
 }
 
 .main__page__button {
@@ -139,11 +162,50 @@ header img {
   margin: 3px;
 }
 
-.main__page li, .main__page div p, .main__page ul, .main__page strong {
-  font-size: 1.2rem;
-  margin-bottom: 2px;
-  margin-top: 2px;
-  line-height: 1.5;
+.main__page__contact {
+  font-size: 1.4rem;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: lightgray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__page__contact p {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  text-align: center;
+  line-height: 2;
+}
+
+.main__page__contact form {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.main__page__contact form div {
+  margin: 10px;
+}
+
+.main__page__contact form .btn-dark {
+  margin: 5px;
+}
+
+.main__page__offer, .main__page__downloads {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .main__page__offer li, .main__page__downloads li {
@@ -159,7 +221,6 @@ header img {
   text-decoration: none;
   list-style-type: none;
   text-transform: uppercase;
-  color: red;
 }
 
 @media (min-width: 1023px) {
@@ -171,16 +232,6 @@ header img {
 .main__page__offer li a, .main__page__downloads li a {
   color: black;
   font-size: 1.5rem;
-}
-
-.main__page__contact {
-  display: block;
-  text-align: center;
-  background-color: lightgray;
-}
-
-.main__page__contact div {
-  margin: 10px;
 }
 
 .footer {
@@ -205,7 +256,7 @@ header img {
 
 @media (min-width: 1023px) {
   .footer__facebook, .footer__map, .footer__phone {
-    font-size: 50px;
+    font-size: 35px;
     margin: 20px;
   }
 }

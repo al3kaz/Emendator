@@ -105,7 +105,7 @@ class ContactForm extends Component {
                <div>
                   <textarea onChange={this.problemHandle} value={this.state.problemValue} required placeholder="opisz swój problem *" id="problem" cols="30" rows="10"></textarea>
                </div>
-               <button onClick={this.handleBtn}>Wyslij</button>
+               <button className="btn btn-dark" onClick={this.handleBtn}>Wyslij</button>
             </ form>
             <Prompt
                when={this.state.isEmpty}

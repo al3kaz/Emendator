@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const FirmyWspółpracujące = () => {
+const CompaniesCooperat = () => {
    return (
       <div className="main__page__wrapper">
+
          <h1 className="main__page__title">Firmy współpracując</h1>
+
          <p><strong>Wolcar Intrnational</strong> Krystyn Wolter
          <br />
          ul. Langiewicza 57, 05-050 Izabelin</p>
@@ -23,7 +25,6 @@ const FirmyWspółpracujące = () => {
          <a href="tel:+48665690000">+48 665 690 000</a>
          <br />
          <a href="http://aliantcompany.pl/">aliantcompany.pl</a>
-
 
 
          <p><strong>JARAN </strong> Biuro Detektywistyczne
@@ -55,4 +56,4 @@ const FirmyWspółpracujące = () => {
    );
 }
 
-export default FirmyWspółpracujące;
+export default CompaniesCooperat;

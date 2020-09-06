@@ -2,10 +2,16 @@
    flex-basis: 60vh;
    &__page {
 
-      &__text {
-         font-size: 1.2rem;
-         margin-bottom: 10px;
+      & h1 {
+         text-align: center;
+         padding: 10px;
       }
+      &__text, &__li {
+         font-size: 1.2rem;
+         margin: 10px 0px;
+         line-height: 2;
+      }
+
 
       &__button {
          padding: 5px;
@@ -13,11 +19,12 @@
          left: 90px;
          margin: 20px 0;
       }
-
+      // bootstrap ----
       .btn-dark {
          margin: 10px 10px 10px 60%;
          text-transform: uppercase;
       }
+      // ----
       
       &__backBtn {
          position: relative;
@@ -55,43 +62,57 @@
          margin: 3px;
       }
 
-      & li, & div p, & ul, & strong  {
-         font-size: 1.2rem;
-         margin-bottom: 2px;
-         margin-top: 2px;
-         line-height: 1.5;
-      }
-
-      &__offer li ,&__downloads li {
-         display: block;
-         margin: 10px;
-         padding: 5px;
-         border-radius: 8px;
-         box-shadow: 20px 20px 20px black;
-         text-align: center;
-         font-weight: 700;
-         background-color: lightgrey;
-         text-decoration: none;
-         list-style-type: none;
-         text-transform: uppercase;
-         color:red;
-         @media (min-width: 1023px) {
-            margin: 30px;            }
-         & a {
-            color: black;
-            font-size: 1.5rem;
-
-         }
-      }
-
       &__contact {
-         display: block;
-         text-align: center;
+         font-size: 1.4rem;
+         border-radius: 8px;
+         margin: 10px;
+         padding: 20px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
          background-color: lightgray;
-
-         & div {
-            margin: 10px;
+         align-items: center;
+         & p {
+            flex-basis: 40%;
+            text-align: center;
+            line-height: 2;
          }
+         & form {
+            text-align: center;
+            flex-grow: 1;
+            & div {
+               margin: 10px;
+            }
+
+            & .btn-dark {
+               margin: 5px;
+            }
+         }
+
       }
-}
+
+      &__offer,&__downloads {
+         max-width: 800px;
+          margin: 0 auto;
+
+            & li {
+             display: block;
+              margin: 10px;
+              padding: 5px;
+              border-radius: 8px;
+              box-shadow: 20px 20px 20px black;
+              text-align: center;
+             font-weight: 700;
+             background-color: lightgrey;
+             text-decoration: none;
+              list-style-type: none;
+               text-transform: uppercase;
+                   @media (min-width: 1023px) { margin: 30px; }
+                   & a {
+                     color: black;
+                        font-size: 1.5rem;
+                      }
+                     }
+                  }
+   }
 }

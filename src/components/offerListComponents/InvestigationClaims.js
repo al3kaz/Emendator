@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const DochodzenieRoszczeń = () => {
+const InvestigationClaims = () => {
 
    return (
       <div className="main__page__wrapper">
@@ -22,22 +22,22 @@ const DochodzenieRoszczeń = () => {
          <h3 className="main__page__h3">
             Zakres usług dochodzenia roszczeń:
          </h3>
-         <li> Odzyskanie należności w postępowaniu polubownym. </li>
-         <li> Bieżące monitorowanie zleconej sprawy.</li>
-         <li> Przyjmowanie od dłużnika wpłat na poczet roszczenia Zleceniodawcy, lub powodowanie wpłat dochodzonych należności bezpośrednio na konto Zleceniobiorcy. </li>
-         <li> Zawieranie w imieniu i za zgodą Zleceniodawcy umowy ugody z dłużnikami. </li>
-         <li> Nadzorowanie, w przypadku uzgodnienia z dłużnikiem ratalnej spłaty należności, terminów i kwot ustalonych do spłaty rat. </li>
-         <li> Przekazywanie Zleceniodawcy miesięcznych sprawozdań z wykonanych zadań. </li>
+         <li className="main__page__li"> Odzyskanie należności w postępowaniu polubownym. </li>
+         <li className="main__page__li"> Bieżące monitorowanie zleconej sprawy.</li>
+         <li className="main__page__li"> Przyjmowanie od dłużnika wpłat na poczet roszczenia Zleceniodawcy, lub powodowanie wpłat dochodzonych należności bezpośrednio na konto Zleceniobiorcy. </li>
+         <li className="main__page__li"> Zawieranie w imieniu i za zgodą Zleceniodawcy umowy ugody z dłużnikami. </li>
+         <li className="main__page__li"> Nadzorowanie, w przypadku uzgodnienia z dłużnikiem ratalnej spłaty należności, terminów i kwot ustalonych do spłaty rat. </li>
+         <li className="main__page__li"> Przekazywanie Zleceniodawcy miesięcznych sprawozdań z wykonanych zadań. </li>
 
          <h3 className="main__page__h3">
             Podstawa działań dochodzenia roszczeń finansowych:
          </h3>
-         <li> Umowa na świadczenie usług dochodzenia roszczeń finansowych. </li>
-         <li> jednorazowe wykonanie usługi.</li>
-         <li> pakiet spraw - jednorazowe wykonanie pakietu. </li>
-         <li> stałe świadczenie usług.</li>
-         <li> Zlecenie do każdej sprawy.</li>
-         <li> Pełnomocnictwo zlecającego wykonanie usługi.</li>
+         <li className="main__page__li"> Umowa na świadczenie usług dochodzenia roszczeń finansowych. </li>
+         <li className="main__page__li"> jednorazowe wykonanie usługi.</li>
+         <li className="main__page__li"> pakiet spraw - jednorazowe wykonanie pakietu. </li>
+         <li className="main__page__li"> stałe świadczenie usług.</li>
+         <li className="main__page__li"> Zlecenie do każdej sprawy.</li>
+         <li className="main__page__li"> Pełnomocnictwo zlecającego wykonanie usługi.</li>
          <p className="main__page__text">
             Czas realizacji zlecenia jest nie dłuższy niż trzy miesiące a np. w sytuacji uzasadnionego doprowadzenia do spłaty zadłużenia w ratach realizacja zlecenia zakończy się po całkowitym zakończeniu spłacenia zadłużenia.
       </p>
@@ -54,4 +54,4 @@ const DochodzenieRoszczeń = () => {
    );
 }
 
-export default DochodzenieRoszczeń;
+export default InvestigationClaims;

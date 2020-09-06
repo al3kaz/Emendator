@@ -11,7 +11,7 @@ const navList = [
 const Navigation = () => {
 
    const menu = navList.map(item => (
-      <li key={item.name}>
+      <li className="nav__ul__li" key={item.name}>
          <NavLink to={item.path} exact={item.exact ? item.exact : false}>
             {item.name}
          </NavLink>
@@ -20,7 +20,7 @@ const Navigation = () => {
 
    return (
       <nav>
-         <ul>
+         <ul className="nav__ul">
             {menu}
          </ul>
       </nav>

@@ -8,7 +8,7 @@ import Navigation from './Navigation'
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="app container">
         <header className="header">
           {<Header />}
         </header>
