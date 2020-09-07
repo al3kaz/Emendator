@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Emendator/static/css/main.9747d7ec.chunk.css",
+    "main.js": "/Emendator/static/js/main.ba9ff777.chunk.js",
+    "main.js.map": "/Emendator/static/js/main.ba9ff777.chunk.js.map",
+    "runtime-main.js": "/Emendator/static/js/runtime-main.ae908136.js",
+    "runtime-main.js.map": "/Emendator/static/js/runtime-main.ae908136.js.map",
+    "static/js/2.8c6bdcda.chunk.js": "/Emendator/static/js/2.8c6bdcda.chunk.js",
+    "static/js/2.8c6bdcda.chunk.js.map": "/Emendator/static/js/2.8c6bdcda.chunk.js.map",
+    "index.html": "/Emendator/index.html",
+    "precache-manifest.f3ae5f2c7127ffe6f5e1740720301e16.js": "/Emendator/precache-manifest.f3ae5f2c7127ffe6f5e1740720301e16.js",
+    "service-worker.js": "/Emendator/service-worker.js",
+    "static/css/main.9747d7ec.chunk.css.map": "/Emendator/static/css/main.9747d7ec.chunk.css.map",
+    "static/js/2.8c6bdcda.chunk.js.LICENSE.txt": "/Emendator/static/js/2.8c6bdcda.chunk.js.LICENSE.txt",
+    "static/media/hammer_1280.jpg": "/Emendator/static/media/hammer_1280.7247606a.jpg",
+    "static/media/hammer_640.jpg": "/Emendator/static/media/hammer_640.100a0f18.jpg",
+    "static/media/justice2_1280.jpg": "/Emendator/static/media/justice2_1280.4fa0b38f.jpg",
+    "static/media/justice2_640.jpg": "/Emendator/static/media/justice2_640.f20a25ab.jpg",
+    "static/media/justice_1280.jpg": "/Emendator/static/media/justice_1280.ea56d422.jpg",
+    "static/media/justice_640.jpg": "/Emendator/static/media/justice_640.bd3156c7.jpg",
+    "static/media/lawyers_1280.jpg": "/Emendator/static/media/lawyers_1280.dcfa2dff.jpg",
+    "static/media/lawyers_640.jpg": "/Emendator/static/media/lawyers_640.f5c6cc8e.jpg",
+    "static/media/logo_Emendator.png": "/Emendator/static/media/logo_Emendator.88468166.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae908136.js",
+    "static/js/2.8c6bdcda.chunk.js",
+    "static/css/main.9747d7ec.chunk.css",
+    "static/js/main.ba9ff777.chunk.js"
+  ]
+}
