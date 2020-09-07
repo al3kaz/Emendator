@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Emendator/static/css/main.9747d7ec.chunk.css",
-    "main.js": "/Emendator/static/js/main.ba9ff777.chunk.js",
-    "main.js.map": "/Emendator/static/js/main.ba9ff777.chunk.js.map",
+    "main.js": "/Emendator/static/js/main.6699222c.chunk.js",
+    "main.js.map": "/Emendator/static/js/main.6699222c.chunk.js.map",
     "runtime-main.js": "/Emendator/static/js/runtime-main.ae908136.js",
     "runtime-main.js.map": "/Emendator/static/js/runtime-main.ae908136.js.map",
     "static/js/2.8c6bdcda.chunk.js": "/Emendator/static/js/2.8c6bdcda.chunk.js",
     "static/js/2.8c6bdcda.chunk.js.map": "/Emendator/static/js/2.8c6bdcda.chunk.js.map",
     "index.html": "/Emendator/index.html",
-    "precache-manifest.f3ae5f2c7127ffe6f5e1740720301e16.js": "/Emendator/precache-manifest.f3ae5f2c7127ffe6f5e1740720301e16.js",
+    "precache-manifest.4555f5174f7ee87a5900a49923f2f703.js": "/Emendator/precache-manifest.4555f5174f7ee87a5900a49923f2f703.js",
     "service-worker.js": "/Emendator/service-worker.js",
     "static/css/main.9747d7ec.chunk.css.map": "/Emendator/static/css/main.9747d7ec.chunk.css.map",
     "static/js/2.8c6bdcda.chunk.js.LICENSE.txt": "/Emendator/static/js/2.8c6bdcda.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.ae908136.js",
     "static/js/2.8c6bdcda.chunk.js",
     "static/css/main.9747d7ec.chunk.css",
-    "static/js/main.ba9ff777.chunk.js"
+    "static/js/main.6699222c.chunk.js"
   ]
 }
