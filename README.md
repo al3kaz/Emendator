@@ -2,7 +2,7 @@ This project is a SPA in React,  its still in progress.
 I created this, to train my skills, but it is for real company.
  fetch, CSS ( SASS, BEM  methodology ).
  
- LINK TO WEBSIDE : https://al3kaz.github.io/Emendator/
+[Live Demo](https://al3kaz.github.io/Emendator/)
 
 ## Available Scripts
 
