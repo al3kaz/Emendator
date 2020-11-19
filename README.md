@@ -1,5 +1,4 @@
-It's my first SPA in React,  its still in progress.
- fetch, CSS ( SASS, BEM  methodology ).
+My first SPA in React. It's awful but first... :P
  
 [Live Demo](https://al3kaz.github.io/Emendator/)
 
